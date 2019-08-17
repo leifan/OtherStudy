@@ -1,3 +1,8 @@
 
+import os
 
-print('hello word!')
+from mypy import *
+
+print('test2 hello word!')
+
+say()
