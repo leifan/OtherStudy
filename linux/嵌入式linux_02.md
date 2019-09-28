@@ -44,6 +44,8 @@ LoginGraceTime 120
 PermitRootLogin yes 
 StrictModes yes 
 然后重启ssh 服务： service ssh restrat
+设置开启启动服务：systemctl  enable ssh
+![设置开启启动ssh](./img/2-0.jpg)
 
 #### 安装开发环境
 
