@@ -67,6 +67,9 @@ export PATH=$PATH:/root/work/tools/gcc-3.4.5-glibc-2.3.6/bin
 
 为了不每次手动设置PATH，可以在/etc/environment中修改PATH值：
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/work/tools/gcc-3.4.5-glibc-2.3.6/bin"
+设置环境变量永久有效：
+1.vi /root/.bashrc
+2.文件最后追加 export PATH=$PATH:/root/work/tools/gcc-3.4.5-glibc-2.3.6/bin
 
 安装ncurses, ncurses是一个能提供功能键自定义（快捷键）、屏幕绘制以及基于文本终端的图形互动功能的动态库。如果没有它，在执行make menuconfig命令配置程序时会出错。
 使用以下命令安装：
