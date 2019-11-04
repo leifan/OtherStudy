@@ -1,4 +1,8 @@
+# 环境使用 PyQt5-5.4-gpl-Py3.4-Qt5.4.0-x32.exe
+# python3.4.3
 
+# ui转py命令:  pyuic5.bat -o qt_test.py qt_test1.ui
+# 运行 python main.py
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from qt_test import *
