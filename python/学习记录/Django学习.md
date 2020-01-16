@@ -1,3 +1,7 @@
+---
+typora-root-url: img
+---
+
 ## Django学习
 
 
@@ -12,9 +16,7 @@ Admin站点管理
 
 创建管理员用户： 命令 python manage.py createsuperuser,
 
-![1572872084237](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1572872084237.png)
-
-
+![1572872084237](/1572872084237.png)
 
 setings.py 汉化修改
 
@@ -26,7 +28,7 @@ TIME_ZONE = 'Asia/Shanghai'
 
 自带支持的数据库 mysql、 oracle、 postgresql、
 
-![1572879726685](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1572879726685.png)
+![1572879726685](/1572879726685.png)
 
 ```
 DATABASES = {
@@ -115,3 +117,24 @@ admin.site.register(Oils, OilsAdmin)
 bool值显示问题： 函数进行值处理，传递函数名
 
 列的显示名称修改： xxx.short_description = "AAAA"
+
+
+
+使用装饰器完成注册：@admin.register(Team)
+
+
+
+waitress
+
+waitress是一个纯python WSGI服务器，声称具备“非常可接受的性能”。
+
+
+
+python 依赖文件
+
+命令自动生成项目相关的依赖
+
+pip freeze > requirements.txt
+
+
+

@@ -1,8 +1,8 @@
 
 import os
+# from mypy import *
 
-from mypy import *
+# print('test2 hello word!')
+# say()
 
-print('test2 hello word!')
-
-say()
+print('jkhdkahdk')

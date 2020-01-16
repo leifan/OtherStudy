@@ -1,3 +1,7 @@
+---
+typora-root-url: img
+---
+
 #python 学习笔记
 
 ####导语
